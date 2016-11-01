@@ -35,7 +35,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 --define inputs and outputs of device
 entity nbitTwistedRingCounter is
-	generic (n : positive := 4);
+	generic (n : positive := 8);
     Port ( CLK : in  STD_LOGIC;
            reset : in  STD_LOGIC;
            preset : in  STD_LOGIC;

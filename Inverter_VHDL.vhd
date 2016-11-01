@@ -39,7 +39,7 @@ architecture Behavioral of Inverter_VHDL is
 begin
 	process(a)
 		begin
-			b <= (not a) after 7ns;
+			b <= (not a) after 7ns;--Flip value of input
 	end process;
 end Behavioral;
 
