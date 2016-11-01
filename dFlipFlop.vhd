@@ -45,16 +45,21 @@ begin
 	process (D, reset, preset, CLK)
 	
 		begin		
-			
+			--check if reset has been set
 			if (reset = '1') then
+				--set reset values
 				Q <= '0';
 				Q_bar <= '1';
 			else 
+				--check if preset has been set
 				if (preset = '1') then
+					--set preset values
 					Q <= '1';
 					Q_bar <= '0';			
 				else 
+					--check if the clock is on the rising edge
 					if (CLK = '1' and CLK'event) then
+						--set inputs as outputs values
 						Q <= D;
 						Q_bar <= not D;	
 					end if;

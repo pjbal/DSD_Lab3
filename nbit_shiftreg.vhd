@@ -66,8 +66,8 @@ component nbitReg
            CLK : in std_logic;
            reset : in std_logic;
            preset : in std_logic;
-           Q_outputs : out std_logic_vector(n-1 downto 0);
-           Q_bar_outputs : out std_logic_vector(n-1 downto 0));
+           Q_outputs : inout std_logic_vector(n-1 downto 0);
+           Q_bar_outputs : inout std_logic_vector(n-1 downto 0));
 end component;
 
 -- INTERNAL SIGNALS

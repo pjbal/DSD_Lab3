@@ -53,8 +53,8 @@ end component;
 
 begin
 
-	init: for i in n-1 downto 0 generate
-		dIinit: dFLipFlop port map (D_inputs(i), reset, preset, CLK, Q_outputs(i), Q_bar_outputs(i));
+	init: for i in n-1 downto 0 generate--loop through all n d flip lops to add
+		dIinit: dFLipFlop port map (D_inputs(i), reset, preset, CLK, Q_outputs(i), Q_bar_outputs(i));--define connections of d flip flop within the device
 		
 	end generate;
 
