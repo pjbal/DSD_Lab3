@@ -1,0 +1,18 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "D_inputs[3]" LOC = G12;
+NET "D_inputs[2]" LOC = E14;
+NET "D_inputs[1]" LOC = D16;
+NET "D_inputs[0]" LOC = B16;
+NET "Q_bar_outputs[3]" LOC = C11;
+NET "Q_bar_outputs[2]" LOC = D11;
+NET "Q_bar_outputs[1]" LOC = B11;
+NET "Q_bar_outputs[0]" LOC = A12;
+NET "Q_outputs[3]" LOC = A13;
+NET "Q_outputs[2]" LOC = B13;
+NET "Q_outputs[1]" LOC = A14;
+NET "Q_outputs[0]" LOC = B14;
+NET "CLK" LOC = C10;
+NET "preset" LOC = D12;
+NET "reset" LOC = C12;

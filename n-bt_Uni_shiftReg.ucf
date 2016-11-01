@@ -1,0 +1,24 @@
+
+NET "D_inputs[5]" LOC = E14;
+NET "D_inputs[4]" LOC = G12;
+NET "D_inputs[3]" LOC = H13;
+NET "D_inputs[2]" LOC = H16;
+NET "D_inputs[1]" LOC = J12;
+NET "D_inputs[0]" LOC = ;J11
+
+NET "shift_in" LOC = C10;
+NET "shift_rotate" LOC = C13;	#????????????????????
+
+NET "F[1]" LOC = D16;
+NET "F[0]" LOC = E14;
+
+NET "CLK" LOC = A10;
+NET "reset" LOC = C12;
+NET "preset" LOC = D12;
+
+NET "Q_outputs[5]" LOC = B11;
+NET "Q_outputs[4]" LOC = A12;
+NET "Q_outputs[3]" LOC = A13;
+NET "Q_outputs[2]" LOC = B13;
+NET "Q_outputs[1]" LOC = A14;
+NET "Q_outputs[0]" LOC = B14;

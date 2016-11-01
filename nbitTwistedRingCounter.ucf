@@ -1,0 +1,13 @@
+
+
+NET "Q_outputs[7]" LOC = C11;
+NET "Q_outputs[6]" LOC = D11;
+NET "Q_outputs[5]" LOC = B11;
+NET "Q_outputs[4]" LOC = A12;
+NET "Q_outputs[3]" LOC = A13;
+NET "Q_outputs[2]" LOC = B13;
+NET "Q_outputs[1]" LOC = A14;
+NET "Q_outputs[0]" LOC = B14;
+NET "preset" LOC = D12;
+NET "reset" LOC = C12;
+NET "CLK" LOC = A10;
