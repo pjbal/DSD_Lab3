@@ -1,0 +1,21 @@
+#slide switches
+
+NET "N_count[3]" LOC = G12;
+NET "N_count[2]" LOC = E14;
+NET "N_count[1]" LOC = D16;
+NET "N_count[0]" LOC = B16;
+
+
+#Push buttons
+NET "downup" LOC = D12;
+##NET "" LOC = C12; no count enable
+NET "reset" LOC = C10;
+
+#LEDS
+NET "Q_outputs[3]" LOC = A13;
+NET "Q_outputs[2]" LOC = B13;
+NET "Q_outputs[1]" LOC = A14;
+NET "Q_outputs[0]" LOC = B14;
+
+#CLK signal input
+NET "CLK" LOC = A10;
